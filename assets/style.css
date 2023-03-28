@@ -6,17 +6,11 @@
     background-color: #2C3E50;
     color: white;
 }
-header, section{
-    padding-inline: 15px;
-}
 /* header */
 header{
     height: 50px;
 }
 /* jumbo */
-.jumbo{
-    text-align: center;
-}
 .jumbo-contents img{
     width: 200px;
     margin-bottom: 10px;
