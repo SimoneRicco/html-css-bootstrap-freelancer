@@ -6,6 +6,9 @@
     background-color: #2C3E50;
     color: white;
 }
+header, section{
+    padding-inline: 15px;
+}
 /* header */
 header .container{
     display: flex;
@@ -30,6 +33,7 @@ nav{
 }
 .jumbo-contents img{
     width: 200px;
+    margin-bottom: 10px;
 }
 .title{
     text-transform: uppercase;
@@ -39,7 +43,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 1rem auto;
+    width: 75%;
 }
 .line{
     border: 2px solid;
@@ -47,6 +52,7 @@ nav{
 }
 .fa-star{
     margin-inline: 5px;
+    font-size: 1.3rem;
 }
 .fa-bars{
     border: 1px solid;
@@ -58,5 +64,4 @@ nav{
 }
 section{
     padding: 15px 0;
-
 }
