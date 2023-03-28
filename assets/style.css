@@ -10,18 +10,8 @@ header, section{
     padding-inline: 15px;
 }
 /* header */
-header .container{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    text-transform: uppercase;
-    align-items: center;
-}
-.logo{
-    font-weight: bold;
-}
-nav{
-    display: none;
+header{
+    height: 50px;
 }
 /* jumbo */
 .jumbo{
