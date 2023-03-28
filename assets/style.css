@@ -10,6 +10,10 @@
 header{
     height: 50px;
 }
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* jumbo */
 .jumbo-contents img{
     width: 200px;
@@ -21,9 +25,6 @@ header{
     text-align: center;
 }
 .line-star{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 1rem auto;
     width: 50%;
 }
@@ -47,8 +48,12 @@ header{
     width: 100%;
     border-radius: 10px;
 }
-.portfolio-images{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.download{
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid white;
+    margin-top: 2rem;
+}
+footer{
+    height: 100px;
 }
