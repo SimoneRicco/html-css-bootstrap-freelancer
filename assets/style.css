@@ -24,10 +24,6 @@ nav{
     display: none;
 }
 /* jumbo */
-.jumbo-contents{
-    width: 50%;
-    margin-inline: auto;
-}
 .jumbo{
     text-align: center;
 }
@@ -37,14 +33,15 @@ nav{
 }
 .title{
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    text-align: center;
 }
 .line-star{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem auto;
-    width: 75%;
+    width: 50%;
 }
 .line{
     border: 2px solid;
@@ -62,6 +59,12 @@ nav{
 .jumbo p{
     text-transform: uppercase;
 }
-section{
-    padding: 15px 0;
+.p-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.portfolio-images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
