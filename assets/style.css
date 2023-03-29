@@ -6,6 +6,10 @@
     background-color: #2C3E50;
     color: white;
 }
+.bg-darkgray{
+    background-color: #1b2630;
+    color: white;
+}
 /* header */
 section{
     padding-top: 20px;
@@ -51,6 +55,10 @@ section{
     border: 1px solid white;
     margin-top: 2rem;
 }
-footer{
-    height: 100px;
+.socials i{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
 }
