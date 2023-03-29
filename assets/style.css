@@ -42,18 +42,9 @@ section{
     border-radius: 2px;
     padding: 10px;
 }
-.jumbo p{
-    text-transform: uppercase;
-}
 .p-img img{
     width: 100%;
     border-radius: 10px;
-}
-.download{
-    background-color: transparent;
-    color: inherit;
-    border: 1px solid white;
-    margin-top: 2rem;
 }
 .socials i{
     border: 1px solid;

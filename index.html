@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <p>Graphic artist - Web designer - Illustrator</p>
+                <p class="text-uppercase">Graphic artist - Web designer - Illustrator</p>
             </div>
         </section>
         <section class="portfolio">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="portfolio-images">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
                         <div class="col p-img">
                             <img src="assets/img/cabin.png" alt="">
                         </div>
@@ -97,42 +97,58 @@
                         <div class="line"></div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row row-cols-md-2">
                     <div class="col-12">Freelancer is a free bootstrap theme created by Start Bootstrap. The download Includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</div>
                     <div class="col-12">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
                 </div>
-                <button class="download">
-                    <i class="fa-solid fa-download text-center"></i>
-                    Download
-                </button>
+                <div class="d-flex justify-content-center pt-3">
+                    <button class="btn btn-outline-light">
+                        <i class="fa-solid fa-download text-center"></i>
+                        Download
+                    </button>
+                </div>
             </div>
         </section>
         <section class="contact-me">
-            <div class="contact">
-                <div class="section-title">
-                    <h2 class="title">Contact me</h2>
-                    <div class="line-star d-flex align-items-center">
-                        <div class="line"></div>
-                        <i class="fa-solid fa-star"></i>
-                        <div class="line"></div>
+            <div class="container">
+                <div class="contact">
+                    <div class="section-title">
+                        <h2 class="title">Contact me</h2>
+                        <div class="line-star d-flex align-items-center">
+                            <div class="line"></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="line"></div>
+                        </div>
                     </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control border-start-0 border-top-0 border-end-0" id="Name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="Email" class="form-label">Email address</label>
+                          <input type="email" class="form-control border-start-0 border-top-0 border-end-0" id="Email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input type="text" class="form-control border-start-0 border-top-0 border-end-0" id="phone">
+                        </div>
+                        <div class=" mb-3 form-floating">
+                            <textarea class="form-control border-start-0 border-top-0 border-end-0" placeholder="Message" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                          </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </form>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email Address">
-                    <input type="tel" placeholder="Phone Number">
-                    <textarea placeholder="Message" cols="30" rows="5"></textarea>
-                    <button class="bg-green">Submit</button>
-                </form>
             </div>
         </section>
         <footer class="bg-gray text-center">
-            <div class="f-text">
-                <div class="footer-1 py-3">
+            <div class="row row-cols-md-3">
+                <div class="col-12 py-3">
                     <div class="subtitle text-uppercase">Location</div>
                     2215 John Daniel Drive Clark, MO 54243
                 </div>
-                <div class="footer-1 py-3">
+                <div class="col-12 py-3">
                     <div class="subtitle text-uppercase">Around the web</div>
                     <div class="socials d-flex justify-content-center">
                         <i class="fa-brands fa-facebook-f d-block"></i>
@@ -141,13 +157,13 @@
                         <i class="fa-brands fa-linkedin-in d-block"></i>
                     </div>
                 </div>
-                <div class="footer-1 py-3">
+                <div class="col-12 py-3">
                     <div class="subtitle text-uppercase">About freelancer</div>
                     Freelance is a free to use, open source Bootstrap theme created by
                     <span class="text-success">Start Bootstrap</span>
                 </div>
             </div>
-            <div class="copyright bg-darkgray">
+            <div class="copyright bg-darkgray py-3">
                 Copytight
                 <i class="fa-regular fa-copyright"></i>
                 Your website 2019
